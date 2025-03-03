@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>login page</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+        
+        <style>
+            *{
+                font-family: roboto;
+            }
+            .card{
+                border: 2px solid black;
+                width: 20%;
+
+                border-radius: 10px;
+                padding: 30px;
+                box-sizing: border-box;
+                background-color: white;
+                box-shadow: 5px 3px 10px 0 rgb(87, 83, 83) ;
+            }
+        
+            .form-title{
+                text-align: center;
+                margin: 30px 0;
+                
+            }
+
+            .text-input{
+                width: 100%;
+                box-sizing: border-box;
+
+                padding: 10px;
+                margin-top: 3px;
+                margin-bottom: 30px;
+                border-radius: 5px;
+                border: 1px solid grey;
+            }
+            .submit-btn{
+                width: 100%;
+                padding: 10px;
+                background-color: rgb(72, 29, 203);
+                color: white;
+                border: none;
+                border-radius: 5px;
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+
+                border-radius: 10px;
+                padding: 30px;
+                box-sizing: border-box;
+                background-image: url("https://external-preview.redd.it/gFJY0W0AZQ1Sp-kyJVROxR2FtF5RP0al4Bl07X-nmqo.jpg?auto=webp&s=e790610fe8f94048061ba92644188c483d0b8f10");
+                background-size: cover;
+                
+            }
+        </style>
+    </head>   
+    <body>
+        <div class="card">
+            <h2 class="form-title">
+                LOGIN FORM
+            </h2>
+            <form>
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email">
+            
+                <label for="password">Password</label>
+                <input class="text-input" type="password" id="password">
+
+                <button class="submit-btn">SUBMIT</button>
+            </form>
+        </div>
+    </body>
+</html>

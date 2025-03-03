@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>using style sheet</title>
+        <style>
+            p{
+                color: aqua;
+                text-decoration: underline;
+                font-size: 40px;
+            }
+            .text{
+                color: greenyellow;
+                text-align: center;
+            }
+            #text2{
+                color: mediumseagreen;
+                text-align: right;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 style="color: blueviolet; font-size: 20px;">
+            inline css is used to style individual tag only
+        </h1>
+        <p>intrnal css is used to style entire page at once</p>
+        <p class="text">name selector is used to select element by their name tag</p>
+        <h2 class="text">class selectors are used to select</h2>
+
+        <h3 id="text2"> id selector are used to select elements by their id name</h3>
+        <button class="btn">submit</button>
+    </body>
+    </html>

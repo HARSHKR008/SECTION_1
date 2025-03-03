@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Sign up</title>
+        <style>
+            *{
+                font-family: roboto;
+            }
+            .card{
+                border: 2px solid rgb(6, 137, 141);
+                width: 25%;
+
+                border-radius: 4px;
+                padding: 30px;
+                box-sizing: border-box;
+                background-color: white;
+                box-shadow: 3px 2px 45px  rgb(123, 139, 132);
+            }
+            .form-title{
+                font-size: 33px;
+                text-align: center;
+                color: rgb(20,120,97);
+            }
+            .text-input{
+                width: 100%;
+                box-sizing: border-box;
+                font-size: 25px;
+                color: aqua;
+
+                padding: 10px;
+                margin-top: 3px;
+                margin-bottom: 30px;
+                border-radius: 5px;
+                border: 1px solid rgb(124, 150, 134);
+            }
+            .submit-btn{
+                font-size: larger;
+                width: 100%;
+                padding: 10px;
+                background-color: rgb(20, 120, 97);
+                color: white;
+                border: none;
+                border-radius: 5px;
+            }
+            .pt{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .st{
+                color: blue;
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+
+                border-radius: 10px;
+                padding: 3px;
+                box-sizing: border-box;
+                box-sizing: border-box;
+                background-image: url("https://external-preview.redd.it/gFJY0W0AZQ1Sp-kyJVROxR2FtF5RP0al4Bl07X-nmqo.jpg?auto=webp&s=e790610fe8f94048061ba92644188c483d0b8f10");
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h2 class="form-title">
+                Sign up
+            </h2>
+            <form>
+                <label for="name">Name</label>
+                <input class="text-input" type="text" id="name">
+
+                <label for="email">Email</label>
+                <input class="text-input" type="email" id="email">
+
+                <label for="password">Password</label>
+                <input class="text-input" type="password" id="password">
+
+                <button class="submit-btn">SIGN UP</button>
+                <p class="pt">Already have an account?</p><p class="st">Login</p>
+            </form>
+        </div>
+    </body>
+</html>        
