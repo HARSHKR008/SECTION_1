@@ -12,5 +12,13 @@ function addnums(a,b) {
   const result = getavg(10,20,30)
   console.log(result);
 
-  
-  
+const factorial = (n) => {
+  let f=1;
+  for(let i=2; i<=n; i++){
+    f*=i;
+  }
+  return f;
+}
+const fact = factorial(5);
+
+console.log(fact);
