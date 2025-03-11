@@ -29,7 +29,7 @@ for (let i = 120; i <= 270; i++) {
 
 //WAP to check if a number is prime
 
-let num = 13;
+let num = 18;
 let isprime = true;
 for (let i = 2; i < num / 2; i++) {
     if (num % i === 0) {
