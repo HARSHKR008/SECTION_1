@@ -11,4 +11,6 @@ function addnums(a,b) {
   }
   const result = getavg(10,20,30)
   console.log(result);
+
+  
   
